@@ -13,11 +13,11 @@ const NavLink = styled(Link)`
   text-decoration: none;
 
   &.current-page {
-    border-bottom: 2px solid #222;
+    border-bottom: 2px solid #222; /*remember this nav bar trick*/
   }
 
   &:last-of-type {
-    margin-right: 0;
+    margin-right: 0; /*remember this nav bar trick*/
   }
 `;
 
