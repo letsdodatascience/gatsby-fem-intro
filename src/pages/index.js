@@ -13,10 +13,6 @@ export default () => {
     <>
       <Hero />
       <Layout>
-        {/* <h1>Hello Vineet Singh!</h1>
-        <p>Greetings from Dublin, Ireland</p>
-        <Link to="/about/">Learn about Me &rarr;</Link> */}
-
         <h2>Read my blog</h2>
         {posts.map(post => (
           <PostPreview key={post.slug} post={post} />
